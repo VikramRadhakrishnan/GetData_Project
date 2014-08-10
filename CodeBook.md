@@ -27,12 +27,12 @@ The R script run_analysis.R is used to generate the tidy data set. The R script 
 There are 81 columns in the tidy data set, described as follows.
 * Subject - The test subject number, from 1 to 30.
 * Activity - The activity being performed. There are 6 categories:
-           - WALKING
-           - WALKING_UPSTAIRS
-           - WALKING_DOWNSTAIRS
-           - SITTING
-           - STANDING
-           - LAYING
+           -- WALKING
+           -- WALKING_UPSTAIRS
+           -- WALKING_DOWNSTAIRS
+           -- SITTING
+           -- STANDING
+           -- LAYING
 The remaining 79 columns represent data that has been averaged for each activity and each subject, hence the variables start with AVG. Descriptions of the original variables appear in features_info.txt.
 Variables with mean() in their names represent mean values of measurements, and variables with sd() in their names represent standard deviation measurements. X, Y and Z represent which axis of linear acceleration or which axis of rotation the accelerometer or gyroscope is measuring.
 * AVG-tBodyAcc-mean()-X
