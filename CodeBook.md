@@ -1,5 +1,5 @@
 Code Book for the tidy data set
-
+===============================
 
 This code book describes the procedure used to obtain the tidy data set from the accelerometer training and test datasets, and describes the variables used in the tidy data set.
 
