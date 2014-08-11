@@ -35,7 +35,7 @@ There are 81 columns in the tidy data set, described as follows.
  - LAYING
 
 The remaining 79 columns represent data that has been averaged for each activity and each subject, hence the variables start with AVG. Descriptions of the original variables appear in features_info.txt.
-Variables with mean() in their names represent mean values of measurements, and variables with sd() in their names represent standard deviation measurements. X, Y and Z represent which axis of linear acceleration or which axis of rotation the accelerometer or gyroscope is measuring.
+Variables with mean() in their names represent mean values of measurements, and variables with sd() in their names represent standard deviation measurements. X, Y and Z represent which axis of linear acceleration or which axis of rotation the accelerometer or gyroscope is measuring. All values range from -1 to +1.
 * AVG-tBodyAcc-mean()-X
 * AVG-tBodyAcc-mean()-Y
 * AVG-tBodyAcc-mean()-Z
